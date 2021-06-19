@@ -21,7 +21,7 @@ function operate (num1, num2, operator){
     } else if (operator ==='/'){
         return div(num1, num2);
     }else {
-        return 'an error has occured';
+        return 'an error has occured in the operate function';
     }
         
     }
