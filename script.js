@@ -142,10 +142,10 @@ division.addEventListener('click', function(){
     return displayNum;
 })
 
-equal.addEventListener('click',function(){
-    let array = displayNum.split(' ');
+equal.addEventListener('click',function(){    //has to be a better way to do this.....
+    let array = displayNum.split(' ');        
 
-    if (displayNum.split(' ') === ['0','/','0']) {
+    if (displayNum.split(' ') === ['0','/','0']) {  // also this doesnt work, but thats ok. returns NaN;
         display.textContent = 'na bro';
     } else if (array.length < 3){
         display.textContent = 'error';
